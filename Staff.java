@@ -2,6 +2,7 @@ public class Staff extends Person{
 
     private int grade; //1=front-line 2=manager 3=vp
     private String staffNumber;
+    final String VERSION = "0.0.2";
 
     public String getStaffNumber() {
         return staffNumber;

@@ -2,6 +2,7 @@ public class Bank {
 
 	private int number;
 	private String type;
+	final String VERSION = "0.0.4";
 
 	public static void main(String [] args){
 		Person peter = new Person("Peter");
@@ -41,6 +42,15 @@ public class Bank {
 		System.out.println("Customer is: " + kelvin.getName());
 		System.out.println("Customer address is: " + kelvin.getAddress());
 		kelvin.sayGreetings();
+
+		Bank b = new Bank();
+
+		System.out.println("Module version list: ");
+		System.out.println("Account: " + ac0001.VERSION);
+		System.out.println("Bank: " + b.VERSION);
+		System.out.println("Person (Peter): " + peter.VERSION);
+		System.out.println("Person (Paul): " + paul.VERSION);
+		System.out.println("Staff: " + kelvin.VERSION);
+		System.out.println("SL: " + sl.VERSION);
 	}
-	
 }

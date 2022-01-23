@@ -3,6 +3,7 @@ public class Person {
     protected String name;
     private String address;
     private Account account;
+    final String VERSION = "0.0.3";
 
     public Person(String name) {
         this.name = name;

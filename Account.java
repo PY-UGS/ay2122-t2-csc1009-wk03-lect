@@ -5,6 +5,7 @@ public class Account {
 
 	private String accountNumber;
 	private boolean isSavingAccount;
+	final String VERSION = "0.0.5";
 
 	public Account(String accountNumber, boolean isSavingAccount) {
 		this.accountNumber = accountNumber;

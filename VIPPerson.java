@@ -1,6 +1,7 @@
 public class VIPPerson extends Person{
 
     private String grade; //m-class Million, b-class Billion
+    final String VERSION = "0.0.1";
 
     public VIPPerson(String name) {
         super(name);
